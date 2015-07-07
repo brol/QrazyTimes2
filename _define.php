@@ -4,8 +4,9 @@
 # This file is part of QrazyTimes2, a theme for Dotclear 2.
 # Pierre Van Glabeke
 #
-# License:
-# http://creativecommons.org/licenses/by-nc-sa/2.0/fr/
+# Licensed under the GPL version 2.0 license.
+# See LICENSE file or
+# http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
 #
 # -- END LICENSE BLOCK ------------------------------------
 if (!defined('DC_RC_PATH')) { return; }
