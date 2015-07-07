@@ -1,0 +1,27 @@
+/*
+# -- BEGIN LICENSE BLOCK ----------------------------------
+#
+# This file is part of QrazyTimes2, a theme for Dotclear 2.
+# Pierre Van Glabeke
+#
+# License:
+# http://creativecommons.org/licenses/by-nc-sa/2.0/fr/
+#
+# -- END LICENSE BLOCK ------------------------------------
+*/
+
+/* CUSTOM CONTENT */
+#blogabout {
+  display:block;
+  margin : 0;
+  padding : 0;
+}
+#blogabout #about {
+  margin : 0 10px;
+}
+#about a, #about a:link {
+  text-decoration : underline;
+}
+#about a:hover {
+  text-decoration : none;
+}

@@ -1,0 +1,32 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: brol <contact@brol.info>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=iso-8859-1\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+
+msgid "back to top"
+msgstr "remonter en haut de page"
+
+msgid "Date"
+msgstr "Date"
+
+msgid "previously"
+msgstr "précédemment"
+
+msgid "latter reaction"
+msgstr "dernière réaction"
+
+msgid "search"
+msgstr "rechercher"
+
+msgid "more recently"
+msgstr "plus récemment"
+
+msgid "in category:"
+msgstr "dans la catégorie :"

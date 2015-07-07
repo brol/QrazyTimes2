@@ -1,0 +1,31 @@
+<div id="footer" role="contentinfo">
+
+	<nav class="jqueryslidemenu" id="footer-categories-nav" role="navigation">
+	<ul>
+	<tpl:Categories level="1">
+	<li><a href="{{tpl:CategoryURL}}" title="{{tpl:CategoryTitle encode_html="1"}}">{{tpl:CategoryTitle encode_html="1"}}</a>
+
+	<tpl:CategoryFirstChildren>
+	  <tpl:CategoriesHeader>
+	    <ul>
+	  </tpl:CategoriesHeader>
+	  <li><a href="{{tpl:CategoryURL}}">{{tpl:CategoryTitle encode_html="1"}}</a></li>
+	  <tpl:CategoriesFooter>
+	    </ul>
+	  </tpl:CategoriesFooter>
+	</tpl:CategoryFirstChildren>
+
+	</li>
+	</tpl:Categories>
+	</ul>
+	</nav>
+
+<p id="footer-content"><a href="{{tpl:BlogURL}}">{{tpl:BlogName encode_html="1"}}</a>. {{tpl:lang Theme}} "QrazyTimes2" {{tpl:lang by}} <a href="https://github.com/brol/QrazyTimes2">Pierre Van Glabeke</a>. {{tpl:SysPoweredBy}}.</p>
+
+<p id="footer-nav" role="navigation"><a href="#page">&#x2191; {{tpl:lang back to top}}</a></p>
+
+</div>
+
+{{tpl:SysBehavior behavior="publicFooterContent"}}
+
+</div> <!-- end #container -->
