@@ -516,6 +516,7 @@ a:hover {
   width : 383px;
   float : right;
   border-left : 1px dotted #cdcdcd;
+  display:inline;
 }
 
 /* SEARCH, ONLY HOMEPAGE */
