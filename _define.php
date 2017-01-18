@@ -15,7 +15,7 @@ $this->registerModule(
 	/* Name */			"QrazyTimes2",
 	/* Description*/		"Thème magazine, fork de Qrazy Times",
 	/* Author */			"Pierre Van Glabeke",
-	/* Version */			'1.0',
+	/* Version */			'0.1',
 	array(
 		'type'	 =>	'theme',
 		'tplset' => 'mustek'
