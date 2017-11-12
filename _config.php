@@ -29,7 +29,7 @@ $html_fileabout = path::real($core->blog->themes_path).'/'.$core->blog->settings
 
 if (!is_file($html_fileabout) && !is_writable(dirname($html_fileabout))) {
 	throw new Exception(
-		sprintf(__('File %s does not exist and directory %s is not writable.'),
+		sprintf(__('File %s does not exist or directory %s is not writable.'),
 		$css_fileabout,dirname($html_fileabout))
 	);
 }

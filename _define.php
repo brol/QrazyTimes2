@@ -18,6 +18,7 @@ $this->registerModule(
 	/* Version */			'0.1',
 	array(
 		'type'	 =>	'theme',
-		'tplset' => 'mustek'
+		'tplset' => 'mustek',
+		'dc_min' => '2.9'
 	)
 );

@@ -11,6 +11,8 @@
 # -- END LICENSE BLOCK ------------------------------------
 */
 
+@import url(screen.css);
+
 /* GLOBAL DIV */
 body, #page, #container, #top, #blogname, #blogdesc, #prelude, #global-nav, #categories-nav, #wrapper, #main, #content, #content-first, #content-second, #content-third, #sidebar, #blogsearch, #blognav, #blogextra, #footer, #footer-content {
   margin : 0;
@@ -168,6 +170,7 @@ a:hover {
   margin : 0 -384px 0 0;
   float : left;
 }
+#breadcrumb {margin:0 0 10px;padding:0 10px;}
 #content-info {
   margin : 0 10px 20px 10px;
   padding : 0 0 10px 0;
@@ -363,6 +366,7 @@ a:hover {
   float : left;
   clear : both;
 }
+#attachments li {list-style:none;}
 #attachments li.audio object {margin:0;vertical-align:bottom;}
 
 /* COMMENTS, COMMENT-FORM & PINGS */
@@ -619,6 +623,12 @@ a:hover {
 .tag90 { font-size : 170%; }
 .tag100 { font-size : 180%; }
 
+.calendar table td {
+	width: 14%;
+	line-height: 2em;
+	padding:0;
+}
+.calendar table caption, .calendar table th, .calendar table td, .calendar table tr {text-align:center;padding:0;}
 /* FOOTER */
 #footer {
   margin : 0 10px;
@@ -765,35 +775,36 @@ audio {max-width:100%;}
   margin : 0 394px 30px 10px;
   border : none;
 }
-.dc-post .post-title {
+.dc-post .post-title,
+.dc-page .post-title {
   padding-bottom : 0.5em;
   font-size : 225%;
 }
-.dc-post .post-info {
+.dc-post .post-info,
+.dc-page .post-info {
   clear : both;
 }
-.dc-post .post-info a {
+.dc-post .post-info a,
+.dc-page .post-info a {
   text-decoration : underline;
 }
-.dc-post .post blockquote {
+.dc-post .post blockquote,
+.dc-page .post blockquote {
   width : 268px;
   float : right;
   margin-right : 0;
   border-bottom : 1px solid;
 }
-.dc-post .post blockquote p {
+.dc-post .post blockquote p,
+.dc-page .post blockquote p {
   font-size : 120%;
   color : #222;
   line-height : 1.4;
 }
-.dc-post img {max-width:100%;}
+.dc-post img, .dc-page img {max-width:100%;}
 /* page */
 .dc-page #main {
   width : 576px;
-}
-.dc-page .post-title {
-  padding-bottom : 0.5em;
-  font-size : 225%;
 }
 .dc-page .post-content {border-bottom:1px solid black;margin-bottom:10px;}
 
@@ -835,6 +846,5 @@ audio {max-width:100%;}
   padding : 0;
   font-size : 150%;
 }
-
 
 .smiley {float:none;margin:0;}

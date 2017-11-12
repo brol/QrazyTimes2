@@ -1,14 +1,37 @@
+# Language: Français
+# Module: qrazytimes2 - 0.1
+# Date: 2017-11-12 17:48:21
+# Translated with translater 2017.05.10
+
 msgid ""
 msgstr ""
-"Project-Id-Version: \n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Project-Id-Version: qrazytimes2 0.1\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: \n"
-"Last-Translator: brol <contact@brol.info>\n"
+"PO-Revision-Date: 2017-11-12T17:48:21+00:00\n"
+"Last-Translator: brol\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=iso-8859-1\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.5.7\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
+#: _config.php:32
+msgid "File %s does not exist or directory %s is not writable."
+msgstr "Le fichier %s n'existe pas ou le répertoire %s n'est pas accessible en écriture."
+
+#: _config.php:85
+msgid "About"
+msgstr "À propos"
+
+#: _config.php:89
 msgid "Display About"
 msgstr "Afficher À propos"
+
+#: _config.php:94
+msgid "Code:"
+msgstr "Code :"
+
+#: tpl/_footer.html:11
+msgid "Theme"
+msgstr "Thème"
+

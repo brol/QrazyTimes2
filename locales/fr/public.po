@@ -1,32 +1,42 @@
+# Language: Français
+# Module: qrazytimes2 - 0.1
+# Date: 2017-11-12 17:48:21
+# Translated with translater 2017.05.10
+
 msgid ""
 msgstr ""
-"Project-Id-Version: \n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Project-Id-Version: qrazytimes2 0.1\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: \n"
-"Last-Translator: brol <contact@brol.info>\n"
+"PO-Revision-Date: 2017-11-12T17:48:21+00:00\n"
+"Last-Translator: brol\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=iso-8859-1\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.5.7\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
-msgid "back to top"
-msgstr "remonter en haut de page"
-
-msgid "Date"
-msgstr "Date"
-
-msgid "previously"
-msgstr "précédemment"
-
-msgid "latter reaction"
-msgstr "dernière réaction"
-
+#: tpl/__layout.html:103
 msgid "search"
 msgstr "rechercher"
 
+#: tpl/_entry-second.html:2
+#: tpl/post.html:43
+msgid "previously"
+msgstr "précédemment"
+
+#: tpl/_entry-second.html:48
+msgid "latter reaction"
+msgstr "dernière réaction"
+
+#: tpl/_footer.html:13
+msgid "back to top"
+msgstr "remonter en haut de page"
+
+#: tpl/post.html:74
+msgid "in category:"
+msgstr "dans la catégorie :"
+
+#: tpl/post.html:45
 msgid "more recently"
 msgstr "plus récemment"
 
-msgid "in category:"
-msgstr "dans la catégorie :"
