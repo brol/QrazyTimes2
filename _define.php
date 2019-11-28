@@ -15,10 +15,10 @@ $this->registerModule(
 	/* Name */			"QrazyTimes2",
 	/* Description*/		"Thème magazine, fork de Qrazy Times",
 	/* Author */			"Pierre Van Glabeke",
-	/* Version */			'0.1',
+	/* Version */			'0.2',
 	array(
 		'type'	 =>	'theme',
 		'tplset' => 'mustek',
-		'dc_min' => '2.9'
+		'dc_min' => '2.15'
 	)
 );
