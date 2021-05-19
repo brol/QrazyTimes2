@@ -36,4 +36,16 @@ href="{{tpl:EntryURL}}">{{tpl:EntryTitle encode_html="1"}}</a></h2>
 </div>
 
 </tpl:LoopPosition>
+
+<tpl:EntriesFooter>
+  <tpl:Pagination>
+    <p class="pagination"><tpl:PaginationIf end="0">
+    <a href="{{tpl:PaginationURL offset="+1"}}" class="prev">&#171;
+    {{tpl:lang previous entries}}</a> - </tpl:PaginationIf>
+    {{tpl:lang page}} {{tpl:PaginationCurrent}} {{tpl:lang of}} {{tpl:PaginationCounter}}
+    <tpl:PaginationIf start="0"> -
+    <a href="{{tpl:PaginationURL offset="-1"}}" class="next">{{tpl:lang next entries}}
+    &#187;</a></tpl:PaginationIf></p>
+  </tpl:Pagination>
+</tpl:EntriesFooter>
 </tpl:Entries>
