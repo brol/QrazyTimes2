@@ -1,30 +1,33 @@
 # Language: Français
-# Module: qrazytimes2 - 0.1
-# Date: 2017-11-12 17:48:21
-# Translated with translater 2017.05.10
+# Module: qrazytimes2 - 0.4
+# Date: 2022-12-26 17:15:29
+# Author: Pierre Van Glabeke
+# Translated with translater 2022.12.22
 
 msgid ""
 msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
-"Project-Id-Version: qrazytimes2 0.1\n"
+"Project-Id-Version: qrazytimes2 0.4\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2017-11-12T17:48:21+00:00\n"
+"PO-Revision-Date: 2022-12-26T17:15:29+00:00\n"
 "Last-Translator: brol\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
-#: tpl/__layout.html:103
+#: tpl/__layout.html:108
 msgid "search"
 msgstr "rechercher"
 
 #: tpl/_entry-second.html:2
+#: tpl/inc/_entry-second.html:3
 #: tpl/post.html:43
 msgid "previously"
 msgstr "précédemment"
 
-#: tpl/_entry-second.html:48
+#: tpl/_entry-second.html:47
+#: tpl/inc/_entry-second.html:48
 msgid "latter reaction"
 msgstr "dernière réaction"
 
@@ -32,11 +35,11 @@ msgstr "dernière réaction"
 msgid "back to top"
 msgstr "remonter en haut de page"
 
-#: tpl/post.html:74
-msgid "in category:"
-msgstr "dans la catégorie :"
-
 #: tpl/post.html:45
 msgid "more recently"
 msgstr "plus récemment"
+
+#: tpl/post.html:74
+msgid "in category:"
+msgstr "dans la catégorie :"
 

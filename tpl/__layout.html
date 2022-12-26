@@ -43,7 +43,6 @@
 			</tpl:Entries>
 
 			<link rel="alternate" type="application/atom+xml" title="Atom 1.0" href="{{tpl:BlogFeedURL type="atom"}}" />
-			<link rel="EditURI" type="application/rsd+xml" title="RSD" href="{{tpl:BlogRSDURL}}" />
 			<link rel="meta" type="application/xbel+xml" title="Blogroll" href="{{tpl:BlogrollXbelLink}}" />
 		</tpl:Block>	<!-- head-linkrel -->
 
@@ -51,7 +50,7 @@
 	</tpl:Block>	<!-- html-head -->
 </head>
 <tpl:Block name="body-tag">
-	<body class="dc-home">
+	<body class="dc-home <tpl:SysIf current_mode="default">dc-home-first</tpl:SysIf>">
 </tpl:Block>
 	<tpl:Block name="html-body">
 		<div id="page">
@@ -71,17 +70,23 @@
 									<tpl:Block name="main-content">
 
                   <div id="content-first">
-                	{{tpl:include src="_entry-first.html"}}
+                	{{tpl:include src="inc/_entry-first.html"}}
                 	</div>
 
                 	<div id="content-second">
-                	{{tpl:include src="_entry-second.html"}}
+                	{{tpl:include src="inc/_entry-second.html"}}
                 	</div>
 
-                	<div id="content-third">
-                	{{tpl:include src="_entry-third.html"}}
+                 <div id="content-third">
+                	{{tpl:include src="inc/_entry-third.html"}}
 	                </div>
-          
+                    <!-- Next pages -->
+                    <tpl:SysIf current_mode="!default">
+                      <div id="content-third">
+                	{{tpl:include src="inc/_entry-third2.html"}}
+	                </div>
+                    </tpl:SysIf>
+
 									</tpl:Block>	<!-- main-content -->
 								</div> <!-- End #content -->
 							</tpl:Block>	<!-- wrapper-main -->

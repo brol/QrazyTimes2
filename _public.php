@@ -11,20 +11,20 @@
 # -- END LICENSE BLOCK ------------------------------------
 if (!defined('DC_RC_PATH')) { return; }
 
-l10n::set(dirname(__FILE__).'/locales/'.$_lang.'/public');
+l10n::set(dirname(__FILE__) . '/locales/' . dcCore::app()->lang. '/public');
 
 # appel css about
-if ($core->blog->settings->themes->qrazytimes2_about)
+if (dcCore::app()->blog->settings->themes->qrazytimes2_about)
 {
-	$core->addBehavior('publicHeadContent',
+	dcCore::app()->addBehavior('publicHeadContent',
 		array('tplQrazytimes2_about','publicHeadContent'));
 }
 
 class tplQrazytimes2_about
 {
-	public static function publicHeadContent($core)
+	public static function publicHeadContent()
 	{
-	$url = $core->blog->settings->system->themes_url.'/'.$core->blog->settings->system->theme;
+	$url = dcCore::app()->blog->settings->system->themes_url.'/'.dcCore::app()->blog->settings->system->theme;
 		echo '<link rel="stylesheet" type="text/css" media="screen" href="'.$url."/about.css\" />\n";
 	}
 }

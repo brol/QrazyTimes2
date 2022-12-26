@@ -11,14 +11,17 @@
 # -- END LICENSE BLOCK ------------------------------------
 if (!defined('DC_RC_PATH')) { return; }
 
+if (!defined('DC_RC_PATH')) {
+    return;
+}
 $this->registerModule(
-	/* Name */			"QrazyTimes2",
-	/* Description*/		"Thème magazine, fork de Qrazy Times",
-	/* Author */			"Pierre Van Glabeke",
-	/* Version */			'0.3',
-	array(
-		'type'	 =>	'theme',
-		'tplset' => 'mustek',
-		'dc_min' => '2.15'
-	)
+    'QrazyTimes2',
+    'Thème magazine, fork de Qrazy Times',
+    'Pierre Van Glabeke',
+    '0.4',
+    [
+        'requires' => [['core', '2.24']],
+        'type'     => 'theme',
+        'tplset'   => 'mustek',
+    ]
 );
